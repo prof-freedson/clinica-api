@@ -27,13 +27,4 @@ public class PacienteCreateDTO {
 
     @Pattern(regexp = "^(A|B|AB|O)[+-]$", message = "Tipo sanguíneo inválido")
     private String tipoSang;
-
-    @Size(max = 200, message = "Endereço deve ter no máximo 200 caracteres")
-    private String enderecoPac;
-
-    @Pattern(regexp = "^[0-9]{10,11}$", message = "Telefone deve ter 10 ou 11 dígitos")
-    private String telefonePac;
-
-    @Email(message = "Email deve ser válido")
-    private String emailPac;
 }

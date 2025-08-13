@@ -16,7 +16,4 @@ public class PacienteUpdateDTO {
     private BigDecimal pesoPac;
     private BigDecimal altPac;
     private String tipoSang;
-    private String enderecoPac;
-    private String telefonePac;
-    private String emailPac;
 }
